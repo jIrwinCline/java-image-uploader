@@ -1,3 +1,4 @@
 great tutorial on uploading to s3 with java spring: https://www.youtube.com/watch?v=i-hoSg8iRG0
 
 needed to add tomcat dependency for some reason to run api(it would containerize, but not run the api): https://github.com/GoogleContainerTools/jib/issues/640
+++ aditionally, it looked like I didn't have the correct dependency. replaced 'spring-boot-starter' 'with spring-boot-starter-web' and also added spring-boot-starter-validation and IT WORKED FINE. Not sure why it didn't generate like usual. Keep an eye out for that.
