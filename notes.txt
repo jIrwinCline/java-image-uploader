@@ -1,1 +1,3 @@
 great tutorial on uploading to s3 with java spring: https://www.youtube.com/watch?v=i-hoSg8iRG0
+
+needed to add tomcat dependency for some reason to run api(it would containerize, but not run the api): https://github.com/GoogleContainerTools/jib/issues/640
