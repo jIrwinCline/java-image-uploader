@@ -22,5 +22,6 @@ public class UserProfileService {
   }
 
   public void uploadUserProfileImage(UUID userProfileId, MultipartFile file) {
+
   }
 }
