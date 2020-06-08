@@ -50,8 +50,13 @@
       <artifactId>spring-web</artifactId>
       <version>5.2.6.RELEASE</version>
     </dependency>
+		<dependency>
+			<groupId>org.apache.tomcat.embed</groupId>
+			<artifactId>tomcat-embed-core</artifactId>
+			<version>9.0.35</version>
+		</dependency>
 
-  </dependencies>
+	</dependencies>
 
 	<build>
 		<plugins>
