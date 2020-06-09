@@ -17,9 +17,12 @@ const UserProfiles = () => {
   return userProfiles.map((userProfile, index) => {
     return (
       <div key={index}>
-        <Dropzone />
+        <br />
+        <br />
         <h1>{userProfile.username}</h1>
         <p>{userProfile.userProfileId}</p>
+        <Dropzone />
+        <br />
       </div>
     );
   });
@@ -35,9 +38,9 @@ function Dropzone() {
     <div {...getRootProps()}>
       <input {...getInputProps()} />
       {isDragActive ? (
-        <p>Drop the files here ...</p>
+        <p>Drop images here ...</p>
       ) : (
-        <p>Drag 'n' drop some files here, or click to select files</p>
+        <p>Drag 'n' drop profile image, or click to select profile image</p>
       )}
     </div>
   );
